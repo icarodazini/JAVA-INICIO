@@ -1,5 +1,4 @@
 # JAVA-INICIO
-JAVA
 
 *SCANNER*
   
