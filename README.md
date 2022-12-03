@@ -19,3 +19,7 @@
 *SYSTEM. OUT*
 
 	O objeto (System). out é a saída padrão, que permite exibir as Strings no console (terminal) de comando quando o aplicativo de Java é executado.
+
+*IMPORT*
+
+	A instrução import tem como objetivo disponibilizar em uma classe, de um determinado pacote, o acesso a demais classes que estejam em pacotes diferentes, por isso importamos ela.
