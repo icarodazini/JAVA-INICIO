@@ -23,3 +23,19 @@
 *IMPORT*
 
 	A instrução import tem como objetivo disponibilizar em uma classe, de um determinado pacote, o acesso a demais classes que estejam em pacotes diferentes, por isso importamos ela.
+	
+*IF-ELSE*
+	A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
+	
+	nota = int(input("Digite uma nota: "))
+
+	if nota < 30:
+    		print("Reprovado")
+	elif nota < 50:
+    		print("Recuperacao")
+	else:
+    		print("Aprovado")
+
+	print("fim.")
+	
+	
