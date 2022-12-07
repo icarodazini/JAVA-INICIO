@@ -27,15 +27,28 @@
 *IF-ELSE*
 	A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
 	
-	nota = int(input("Digite uma nota: "))
+	
+			
+			n = int(input("Digite um numero: "))
 
-	if nota < 30:
-    		print("Reprovado")
-	elif nota < 50:
-    		print("Recuperacao")
-	else:
-    		print("Aprovado")
+		if n % 2 == 0:  # se n é múltiplo de 2 então é par
+		    print(n, "e' par")
+		else:           # senão o número é ímpar, não precisa fazer outro teste!
+		    print(n, "e' impar")
 
-	print("fim.")
+		print("fim.")
+
 	
 	
+			nota = int(input("Digite uma nota: "))
+
+		if nota < 30:
+		    print("Reprovado")
+		else:
+		    if nota < 50:
+			print("Recuperacao")
+		else:
+			print("Aprovado")
+
+		print("fim.")
+
