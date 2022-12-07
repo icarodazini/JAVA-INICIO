@@ -38,9 +38,8 @@ ________________________________________________________________________________
 	
 	
 			
--			n = int(input("Digite um numero: "))
-
--		if n % 2 == 0:  # se n é múltiplo de 2 então é par
+-			n = int(input("Digite um numero: ");
+		if n % 2 == 0:  # se n é múltiplo de 2 então é par
 		    print(n, "e' par")
 		else:           # senão o número é ímpar, não precisa fazer outro teste!
 		    print(n, "e' impar")
@@ -49,29 +48,24 @@ ________________________________________________________________________________
 	-----------------------------------------------------------------------------------------
 			
 -			nota = int(input("Digite uma nota: "))
-
--		if nota < 30:
+		if nota < 30:
 		    print("Reprovado")
 		else:
 		    if nota < 50:
 			print("Recuperacao")
 		else:
 			print("Aprovado")
-
--		print("fim.")
+		print("fim.")
 		
 	------------------------------------------------------------------------------------------		
 	
 -		int minutos = sc.nextInt();
-
--		double conta = 50.0;
+		double conta = 50.0;
 		if (minutos > 100) {
 		    conta += (minutos - 100) * 2.0; //*conta += () ou conta = conta + ()
 		}
-
--		System.out.printf("Valor da conta = R$ %.2f%n", conta);
-
--		sc.close();
+		System.out.printf("Valor da conta = R$ %.2f%n", conta);
+		sc.close();
 		
 	------------------------------------------------------------------------------------------	
 		
