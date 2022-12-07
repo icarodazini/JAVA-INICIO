@@ -35,8 +35,6 @@ ________________________________________________________________________________
 	
 *IF-ELSE*
 	A condicional if é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else.
-	
-	
 			
 -			n = int(input("Digite um numero: ");
 		if n % 2 == 0:  # se n é múltiplo de 2 então é par
@@ -101,6 +99,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 
 SWITCH-CASE:
+	É uma forma de reduzir a complexidade de vários if … else encadeados. É muito utilizado, principalmente para uso em estruturas de menu. O conteúdo de uma variável é comparado com um valor constante, e caso a comparação seja verdadeira, um determinado comando é executado
 
 -		    int x = sc.nextInt();
 		    String dia;
@@ -132,4 +131,14 @@ SWITCH-CASE:
 		    }
 		    System.out.println("Dia da semana: " + dia);
 		    sc.close();
-	
+		    
+_______________________________________________________________________________________________________________________________________________________________________
+
+ESPRESSÃO-CONDICIONAL-TERNARIA:
+	Este operador pode ser útil em situações em que desejamos atribuir a uma variável, valores diferentes de acordo com determinada condição. Usando o operador condicional ternário poderíamos escrever: y = (x == 20) ? 50 : 70; // y recebe, se x for igual a 20 então 50, senão 70.
+
+-	Scanner sc = new Scanner(System.in);
+		    double preco = 34.5;
+		    double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
+		    System.out.println(desconto);
+		    sc.close();
