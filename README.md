@@ -134,7 +134,7 @@ SWITCH-CASE:
 		    
 _______________________________________________________________________________________________________________________________________________________________________
 
-ESPRESSÃO-CONDICIONAL-TERNARIA:
+ESPRESSÃO-CONDICIONAL-TERNARIA:                                                                                                             
 	Este operador pode ser útil em situações em que desejamos atribuir a uma variável, valores diferentes de acordo com determinada condição. Usando o operador condicional ternário poderíamos escrever: y = (x == 20) ? 50 : 70; // y recebe, se x for igual a 20 então 50, senão 70.
 
 -		Scanner sc = new Scanner(System.in);
