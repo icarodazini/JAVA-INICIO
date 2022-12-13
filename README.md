@@ -137,7 +137,7 @@ ________________________________________________________________________________
 ESPRESSÃO-CONDICIONAL-TERNARIA:
 	Este operador pode ser útil em situações em que desejamos atribuir a uma variável, valores diferentes de acordo com determinada condição. Usando o operador condicional ternário poderíamos escrever: y = (x == 20) ? 50 : 70; // y recebe, se x for igual a 20 então 50, senão 70.
 
--	Scanner sc = new Scanner(System.in);
+-		Scanner sc = new Scanner(System.in);
 		    double preco = 34.5;
 		    double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 		    System.out.println(desconto);
