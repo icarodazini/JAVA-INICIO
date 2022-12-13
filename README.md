@@ -149,4 +149,4 @@ Estrutura Repetitiva Enquanto (while):
 -		REGRAS:
 			V: executa e volta
 			F: pula fora
-		
+while = enquanto
