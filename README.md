@@ -146,7 +146,7 @@ ESPRESSÃO-CONDICIONAL-TERNARIA:
 _______________________________________________________________________________________________________________________________________________________________________		    
 Estrutura Repetitiva Enquanto (while):                                                                                                             
 	O while é usado para repetir um bloco de instrução por um periodo determinado ou então, enquanto a condiçao for verdadeira, sendo assim quando a condição falsa (pula fora)
-		REGRAS:
+-		REGRAS:
 			V: executa e volta
 			F: pula fora
 		
