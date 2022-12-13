@@ -142,3 +142,11 @@ ESPRESSÃO-CONDICIONAL-TERNARIA:
 		    double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 		    System.out.println(desconto);
 		    sc.close();
+		    
+_______________________________________________________________________________________________________________________________________________________________________		    
+Estrutura Repetitiva Enquanto (while):                                                                                                             
+	O while é usado para repetir um bloco de instrução por um periodo determinado ou então, enquanto a condiçao for verdadeira, sendo assim quando a condição falsa (pula fora)
+		REGRAS:
+			V: executa e volta
+			F: pula fora
+		
